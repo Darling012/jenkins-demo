@@ -10,4 +10,8 @@ public class Controller {
     public  String test () {
         return "Ok";
     }
+    @GetMapping("testGet")
+    public  String testGet () {
+        return "Okget";
+    }
 }
